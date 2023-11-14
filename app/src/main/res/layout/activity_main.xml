@@ -1,0 +1,83 @@
+<!-- activity_main.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question 1: Which of these is a Kotlin keyword for a loop?" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupQuestion1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioOption1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="repeat" />
+
+        <RadioButton
+            android:id="@+id/radioOption2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="for" />
+
+        <RadioButton
+            android:id="@+id/radioOption3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="loop" />
+
+        <RadioButton
+            android:id="@+id/radioOption4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="foreach" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question 2: Which of these are valid Kotlin data types? (Select all that apply)" />
+
+    <CheckBox
+        android:id="@+id/checkOption1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Int" />
+
+    <CheckBox
+        android:id="@+id/checkOption2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="String" />
+
+    <CheckBox
+        android:id="@+id/checkOption3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Boolean" />
+
+    <CheckBox
+        android:id="@+id/checkOption4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Real" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset" />
+</LinearLayout>
